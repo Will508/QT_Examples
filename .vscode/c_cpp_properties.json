@@ -3,7 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+                "/home/will/Qt5.12.9/5.12.9/gcc_64/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
